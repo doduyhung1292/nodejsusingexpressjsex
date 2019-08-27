@@ -3,8 +3,5 @@ form
    input(type='text')
    button search
 ul
-  each user in [
-		{id:1, name: 'hung'},
-		{id:2, name: 'pii'}
-		]
+  each user in userslist
     li= user.name
